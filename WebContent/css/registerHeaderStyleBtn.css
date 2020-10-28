@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.login {
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	margin: 15px 75px;
+	position: relative;
+	background-color: #f90;
+	border-radius:6px;
+}
+
+#loginBtn {
+	display: block;
+	margin: auto;
+	padding-top:3px;
+	text-align: center;
+	color: #1b1b1b;
+	font-weight:700;
+}
