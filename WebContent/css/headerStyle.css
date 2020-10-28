@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.headerWrapper {
+	height: 82px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #1b1b1b;
+}
+
+.headerContainer {
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #555;
+	align-items: center;
+}
+
+.logo_myApps {
+	display: inline-block;
+	height: 40px;
+	width: 150px;
+	margin: auto;
+	left: 20px;
+	position: absolute;
+}
+
+.headerBtnWrapper {
+	display: inline-block;
+	height: 60px;
+	width: 250px;
+	top: 10px;
+	right:0px;
+	position: absolute;
+}
