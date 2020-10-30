@@ -9,7 +9,7 @@
 <title>myApps | Welcome!</title>
 </head>
 <body>
-	<%@ include file="./header/topHeader.jsp" %>
+	<%@ include file="./header.jsp" %>
 <div class="bodyWrapper">
 	<div class="main">
 		<div class="topTextArea">

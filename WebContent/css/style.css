@@ -37,34 +37,36 @@ a {
 }
 
 .topTextArea {
-	height: 110px;
 	margin-bottom: 20px;
-    border: 0;
     border-top: 1px solid #555;
     border-bottom: 1px solid #555;
 	background-image: repeating-linear-gradient(90deg, rgba(161, 161, 161, 0.09) 0px, rgba(161, 161, 161, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 96px), repeating-linear-gradient(0deg, rgba(161, 161, 161, 0.09) 0px, rgba(161, 161, 161, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 96px), repeating-linear-gradient(0deg, rgba(161, 161, 161, 0.09) 0px, rgba(161, 161, 161, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 12px), repeating-linear-gradient(90deg, rgba(161, 161, 161, 0.09) 0px, rgba(161, 161, 161, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 12px), linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
 }
 .topTexts {
 	display: block;
-	height: 100%;
 	width: 60%;
 	margin: auto;
-	margin-bottom: 30px;
-	top: 30px;
-	position: relative;
 	text-align: center;
 }
 
 .topTitle {
-    margin-bottom: 30px;
+	padding: 20px 0px;
     letter-spacing: 1px;
-    font-size: 36px;
-    font-weight: 400;
+    font-size: 38px;
 }
 
 .topSubTitle {
+	padding-bottom: 20px;
 	font-size: 18px;
     font-weight: 300;
+}
+
+.inputFormArea {
+	display: block;
+	width: 40%;
+	top: 20px;
+	margin: auto;
+	position: relative;
 }
 
 .submitBtn {
@@ -77,4 +79,8 @@ a {
 	color: #1b1b1b;
 	font-weight:600;
 	cursor: pointer;
+}
+.submitBtn:hover {
+	background-color: #FFCC66;
+	color: #555;
 }

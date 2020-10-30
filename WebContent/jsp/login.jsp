@@ -9,13 +9,14 @@
 <title>myApps | Login</title>
 </head>
 <body>
-	<%@ include file="./header/loginHeader.jsp" %>
+	<%@ include file="./header.jsp" %>
 	<div class="bodyWrapper">
 		<div class="main">
 			<div class="topTextArea">
 				<div class="topTexts"><div class="topTitle">myAppsにログイン</div></div>
 			</div>
-			<form class="loginSessionForm" action="./login" accept-charset="UTF-8" method="post">
+
+			<form class="inputFormArea loginSessionForm" action="./login" accept-charset="UTF-8" method="post">
 				<div class="form-group">
 					 <input type="text" name="username" id="username" placeholder="Username" class="form-control">
 				</div>
@@ -29,6 +30,7 @@
 					<input type="submit" name="loginSubmit" value="Log In" class="submitBtn">
 				</div>
 			</form>
+
 		</div>
 	</div>
 	<%@ include file="footer.jsp" %>

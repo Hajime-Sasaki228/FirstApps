@@ -19,19 +19,32 @@
 }
 
 .logo_myApps {
-	display: inline-block;
 	height: 40px;
 	width: 150px;
-	margin: auto;
-	left: 20px;
+	margin: 20px;
 	position: absolute;
 }
 
 .headerBtnWrapper {
-	display: inline-block;
-	height: 60px;
-	width: 250px;
-	top: 10px;
+	height: 30px;
+	margin: auto;
+	padding: 25px 0px;
 	right:0px;
 	position: absolute;
+}
+
+#loginBtn, #registerBtn {
+    display: inline-block;
+	width: 80px;
+	padding: 5px 10px;
+	margin: auto 15px auto auto;
+	text-align: center;
+	background-color: #f90;
+	color: #1b1b1b;
+	font-weight:700;
+	border-radius: 6px;
+}
+#loginBtn:hover, #registerBtn:hover {
+	background-color: #FFCC66;
+	color: #555;
 }
