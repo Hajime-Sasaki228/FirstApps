@@ -7,6 +7,12 @@
 <link rel="stylesheet" href="/FirstApp/css/style.css" type="text/css">
 <link rel="stylesheet" href="/FirstApp/css/registerStyle.css" type="text/css">
 <title>myApps | Register</title>
+
+<%-- ユーザ登録画面ではヘッダーの登録ボタンを非表示にする --%>
+<style>
+	#header-registerBtn {display: none !important;}
+</style>
+
 </head>
 <body>
 	<%@ include file="./header.jsp" %>
