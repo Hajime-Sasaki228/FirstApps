@@ -9,17 +9,17 @@
 <title>myApps | パスワードを再設定する</title>
 </head>
 <body>
-	<%@ include file="./header/topHeader.jsp" %>
-<div class="bodyWrapper">
-	<div class="main">
-		<div class="topTextArea">
-			<div class="topTexts" style="top: 45px;">
-				<div class="topsubTitle">パスワードの再設定</div>
+	<%@ include file="./header.jsp" %>
+	<div class="bodyWrapper">
+		<div class="main">
+			<div class="topTextArea">
+				<div class="topTexts" style="top: 45px;">
+					<div class="topsubTitle">パスワードの再設定</div>
+				</div>
 			</div>
+			<p>メールアドレスを入力してください。</p>
 		</div>
-		<p>メールアドレスを入力してください。</p>
 	</div>
-</div>
 	<%@ include file="footer.jsp" %>
 </body>
 </html>

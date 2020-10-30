@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-.registerSessionForm {
-	display: block;
-	width: 40%;
-	margin: auto;
-	top: 20px;
-	padding-right: 10px;
-	padding-left: 10px;
-	position: relative;
-}
-
 .form-group {
 	display: block;
 	width: 70%;

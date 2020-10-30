@@ -9,16 +9,17 @@
 <title>myApps | Register</title>
 </head>
 <body>
-	<%@ include file="./header/registerHeader.jsp" %>
+	<%@ include file="./header.jsp" %>
 	<div class="bodyWrapper">
 		<div class="main">
-			<div class="topTextArea" style="height: 170px">
+			<div class="topTextArea">
 				<div class="topTexts">
 					<div class="topTitle">myAppsへようこそ！</div>
 					<div class="topSubTitle">新規登録して利用を開始しましょう。</div>
 				</div>
 			</div>
-			<form class="registerSessionForm" action="/register" accept-charset="UTF-8" method="post">
+
+			<form class="inputFormArea registerSessionForm" action="/register" accept-charset="UTF-8" method="post">
 				<div class="form-group">
 					 <input type="text" name="username" id="username" placeholder="Username" class="form-control">
 				</div>
@@ -46,6 +47,7 @@
 					<input type="submit" name="registerSubmit" value="Register Now" class="submitBtn">
 				</div>
 			</form>
+
 		</div>
 	</div>
 	<%@ include file="footer.jsp" %>

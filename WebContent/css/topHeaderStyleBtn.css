@@ -23,3 +23,8 @@
 	color: #1b1b1b;
 	font-weight:700;
 }
+
+#loginBtn:hover, #registerBtn:hover {
+	background-color: #FFCC66;
+	color: #555;
+}
