@@ -7,6 +7,12 @@
 <link rel="stylesheet" href="/FirstApp/css/style.css" type="text/css">
 <link rel="stylesheet" href="/FirstApp/css/loginStyle.css" type="text/css">
 <title>myApps | Login</title>
+
+<%-- ログイン画面ではヘッダーのログインボタンを非表示にする --%>
+<style>
+	#header-loginBtn {display: none !important;}
+</style>
+
 </head>
 <body>
 	<%@ include file="./header.jsp" %>

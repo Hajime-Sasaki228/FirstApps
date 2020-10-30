@@ -16,8 +16,8 @@
 						<a href="/FirstApp/top"><img src="/FirstApp/images/logo_myApps.png" alt="myApps"></a>
 					</div>
 					<div class="headerBtnWrapper">
-						<a id="loginBtn" href="/FirstApp/login">Log In</a>
-						<a id="registerBtn" href="/FirstApp/register">Register</a>
+						<a id="header-loginBtn" href="/FirstApp/login">Log In</a>
+						<a id="header-registerBtn" href="/FirstApp/register">Register</a>
 					</div>
 				</div>
 			</div>
