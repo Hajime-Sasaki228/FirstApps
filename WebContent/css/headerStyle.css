@@ -33,7 +33,7 @@
 	position: absolute;
 }
 
-#loginBtn, #registerBtn {
+#header-loginBtn, #header-registerBtn {
     display: inline-block;
 	width: 80px;
 	padding: 5px 10px;
@@ -44,7 +44,7 @@
 	font-weight:700;
 	border-radius: 6px;
 }
-#loginBtn:hover, #registerBtn:hover {
+#header-loginBtn:hover, #header-registerBtn:hover {
 	background-color: #FFCC66;
 	color: #555;
 }
