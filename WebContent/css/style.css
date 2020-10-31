@@ -21,7 +21,7 @@ a {
 }
 
 .bodyWrapper {
-	height: 702px;
+	height: 1002px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -29,7 +29,7 @@ a {
 }
 
 .main {
-	height: 700px;
+	height: 1000px;
 	width: 960px;
 	margin: 0 auto;
 	border-bottom: 1px solid #555;
