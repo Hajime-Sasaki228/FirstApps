@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 .footerWrapper {
+	position: absolute;
+	bottom: 0%;
 	height: 82px;
 	width: 100%;
 	margin: 0;
@@ -11,10 +13,20 @@
 .footerContainer {
 	width: 960px;
 	height: 80px;
-	margin: 0 auto;
+	margin: auto;
+	margin-top: 40px;
 	position: relative;
 	border-top: 1px solid #555;
 	border-bottom: 1px solid #555;
 	align-items: center;
 	color: #fff;
+}
+
+.footerTitle {
+	position: absolute;
+	left: 40px;
+	height: 100%;
+	width: 20%;
+	margin: auto;
+	text-align: center;
 }

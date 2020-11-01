@@ -12,6 +12,7 @@ body {
 	width: 100%;
 	margin: auto;
 	color: #fff;
+	background-color: #1b1b1b;
 	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,
 		Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
 }
@@ -21,18 +22,17 @@ a {
 }
 
 .bodyWrapper {
-	height: 1002px;
+	height: 100%;
 	width: 100%;
 	margin: 0;
-	padding: 0;
+	padding-bottom: 50px;
 	background-color: #1b1b1b;
 }
 
 .main {
-	height: 1000px;
+	height: 100%;
 	width: 960px;
 	margin: 0 auto;
-	border-bottom: 1px solid #555;
 	align-items: center;
 }
 
@@ -83,4 +83,65 @@ a {
 .submitBtn:hover {
 	background-color: #FFCC66;
 	color: #555;
+}
+
+.devAppsTitle {
+	top: 40px;
+	left: 0px;
+	padding: 20px;
+	border-bottom: 2px;
+	border-bottom-color: #f90;
+}
+
+.devAppsListArea {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 180px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.AppName {
+	position: relative;
+	width: 200px;
+	height: 180px;
+	margin:auto;
+	border: 1px solid #ffffff;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.AppLink {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform : translate(-50%,-50%);
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight:600;
+}
+
+.todo {
+	background: linear-gradient(to top, rgb(255 212 0 / 70%) 0%, rgb(109 255 91 / 70%) 100%), url(../images/todo.png);
+	background-size: cover;
+} .todo:hover {
+	background: linear-gradient(to top, rgb(255 212 0 / 70%) 100%, rgb(109 255 91 / 70%) 0%), url(../images/todo.png);
+}
+
+.attendance {
+	background-image: linear-gradient(to top, rgb(230 49 49 / 70%) 0%, rgb(230 207 121 / 70%) 100%), url(../images/pc.png);
+	background-size: contain;
+} .attendance:hover {
+	background: linear-gradient(to top, rgb(230 49 49 / 70%) 100%, rgb(230 207 121 / 70%) 0%), url(../images/pc.png);
+}
+
+.library {
+	background-image: linear-gradient(to top, rgb(30 36 236 / 70%) 0%, rgb(113 239 204 / 70%) 100%), url(../images/book.png);
+	background-size: contain;
+} .library:hover {
+		background-image: linear-gradient(to top, rgb(30 36 236 / 70%) 100%, rgb(113 239 204 / 70%) 0%), url(../images/book.png);
 }
