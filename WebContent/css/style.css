@@ -129,19 +129,27 @@ a {
 	background: linear-gradient(to top, rgb(255 212 0 / 70%) 0%, rgb(109 255 91 / 70%) 100%), url(../images/todo.png);
 	background-size: cover;
 } .todo:hover {
-	background: linear-gradient(to top, rgb(255 212 0 / 70%) 100%, rgb(109 255 91 / 70%) 0%), url(../images/todo.png);
+	background: linear-gradient(to top, rgb(255 212 0 / 0%) 100%, rgb(109 255 91 / 0%) 0%), url(../images/todo.png);
+}
+
+.crypto {
+	background: linear-gradient(to top, rgb(88 255 209 / 70%) 0%, rgb(240 19 255 / 70%) 100%), url(../images/crypto.png);
+	background-size: cover;
+} .crypto:hover {
+	background: linear-gradient(to top, rgb(88 255 209 / 0%) 0%, rgb(240 19 255 / 0%) 100%), url(../images/crypto.png);
+	background-size: cover;
 }
 
 .attendance {
-	background-image: linear-gradient(to top, rgb(230 49 49 / 70%) 0%, rgb(230 207 121 / 70%) 100%), url(../images/pc.png);
+	background-image: linear-gradient(to top, rgb(255 0 0 / 70%) 0%, rgb(255 141 0 / 70%) 100%), url(../images/pc.png);
 	background-size: contain;
 } .attendance:hover {
-	background: linear-gradient(to top, rgb(230 49 49 / 70%) 100%, rgb(230 207 121 / 70%) 0%), url(../images/pc.png);
+	background: linear-gradient(to top, rgb(255 0 0 / 0%) 0%, rgb(255 141 0 / 0%) 100%), url(../images/pc.png);
 }
 
 .library {
 	background-image: linear-gradient(to top, rgb(30 36 236 / 70%) 0%, rgb(113 239 204 / 70%) 100%), url(../images/book.png);
 	background-size: contain;
 } .library:hover {
-		background-image: linear-gradient(to top, rgb(30 36 236 / 70%) 100%, rgb(113 239 204 / 70%) 0%), url(../images/book.png);
+		background-image: linear-gradient(to top, rgb(30 36 236 / 0%) 100%, rgb(113 239 204 / 0%) 0%), url(../images/book.png);
 }
